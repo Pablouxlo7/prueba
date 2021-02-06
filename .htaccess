@@ -1,0 +1,10 @@
+Options +FollowSymLinks
+
+RewriteEngine On
+
+
+RewriteRule ^Inicio$                         index.php?identificador=1
+RewriteRule ^insertar$                   	 index.php?identificador=2
+RewriteRule ^(.*)\-pag$                	     index.php?identificador=30&pag=$1
+
+
